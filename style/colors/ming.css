@@ -1,0 +1,59 @@
+#preloader { background: #E6EBEC url('../images/preloader-ming.svg') center center no-repeat; }
+#top-nav { background: #336E7B; }
+.overlay-menu { background: rgba(51, 110, 123, 0.95); }
+a.call-to-button { color: #000; background: #F1C40F; -webkit-box-shadow: 1px 2px 0px 0px rgba(154, 125, 10, 1); -moz-box-shadow: 1px 2px 0px 0px rgba(154, 125, 10, 1); box-shadow: 1px 2px 0px 0px rgba(154, 125, 10, 1); }
+a.call-to-button:hover { background: #F4D351; }
+.image-background a.call-to-button { background: #F1C40F; -webkit-box-shadow: 1px 2px 0px 0px rgba(154, 125, 10, 1); -moz-box-shadow: 1px 2px 0px 0px rgba(154, 125, 10, 1); box-shadow: 1px 2px 0px 0px rgba(154, 125, 10, 1); }
+.image-background a.call-to-button:hover { background: #F4D351; }
+.video-background a.call-to-button { background: #F1C40F; -webkit-box-shadow: 1px 2px 0px 0px rgba(154, 125, 10, 1); -moz-box-shadow: 1px 2px 0px 0px rgba(154, 125, 10, 1); box-shadow: 1px 2px 0px 0px rgba(154, 125, 10, 1); }
+.video-background a.call-to-button:hover { background: #F4D351; }
+.pattern-background a.call-to-button { background: #F1C40F; -webkit-box-shadow: 1px 2px 0px 0px rgba(154, 125, 10, 1); -moz-box-shadow: 1px 2px 0px 0px rgba(154, 125, 10, 1); box-shadow: 1px 2px 0px 0px rgba(154, 125, 10, 1); }
+.pattern-background a.call-to-button:hover { background: #F4D351; }
+a.call-to-button-transparent { color: #FFF; border: 1px solid rgba(255, 255, 255, 0.5); }
+.section_title .title_border { background: #336E7B; }
+.solid-background { background: #336E7B; }
+#features1 .feature-details .title-separator { background: #336E7B; }
+.feature-circle { background: #336E7B; }
+.carousel-direction-nav a { background: #336E7B; -webkit-box-shadow: 1px 2px 0px 0px rgba(33, 70, 78, 1); -moz-box-shadow: 1px 2px 0px 0px rgba(33, 70, 78, 1); box-shadow: 1px 2px 0px 0px rgba(33, 70, 78, 1); }
+.carousel-direction-nav a:hover { background: #408999; }
+.testimonials-control-nav li a.testimonials-active { background: #336E7B; border: 1px solid #21464E; }
+#service-items ul li .service-teaser a.more-link { background: #336E7B; -webkit-box-shadow: 1px 2px 0px 0px rgba(33, 70, 78, 1); -moz-box-shadow: 1px 2px 0px 0px rgba(33, 70, 78, 1); box-shadow: 1px 2px 0px 0px rgba(33, 70, 78, 1); }
+#service-items ul li .service-teaser a.more-link:hover { background: #408999; }
+.position { background: #336E7B; }
+.member-info p.member-more a { background: #336E7B; -webkit-box-shadow: 1px 2px 0px 0px rgba(33, 70, 78, 1); -moz-box-shadow: 1px 2px 0px 0px rgba(33, 70, 78, 1); box-shadow: 1px 2px 0px 0px rgba(33, 70, 78, 1); }
+.member-info p.member-more a:hover { background: #408999; }
+.quote-sign { color: #336E7B; }
+.pricing-column ul li.signup-button a { background: #336E7B; -webkit-box-shadow: 1px 2px 0px 0px rgba(33, 70, 78, 1); -moz-box-shadow: 1px 2px 0px 0px rgba(33, 70, 78, 1); box-shadow: 1px 2px 0px 0px rgba(33, 70, 78, 1); }
+.pricing-column ul li.signup-button a:hover { background: #408999; }
+#contact-form button { background: #336E7B url('../images/send-button-bg.png') top left no-repeat; -webkit-box-shadow: 1px 2px 0px 0px rgba(33, 70, 78, 1); -moz-box-shadow: 1px 2px 0px 0px rgba(33, 70, 78, 1); box-shadow: 1px 2px 0px 0px rgba(33, 70, 78, 1); }
+#contact-form button:hover { background: #408999 url('../images/send-button-bg.png') top left no-repeat; }
+#contact-form input[type="text"]:focus, #contact-form textarea:focus { border: 2px solid #336E7B; }
+#social { background: #336E7B; }
+#video-tour { background: #336E7B; }
+#quote { background: #336E7B; }
+.quote-content { color: #000; }
+.quote-author { color: #000; }
+.pricing-column ul li.plan-price { background: #336E7B; }
+#download-section { background: #336E7B; }
+#fun-facts { background: transparent; }
+#facts-wrapper ul li { border-top: 4px solid #336E7B; }
+.fact-desc { background: #336E7B; }
+#subscribe { background: transparent; }
+#mc_embed_signup h2 { background: #336E7B; }
+#mc_embed_signup input[type="submit"] { background: #336E7B; -webkit-box-shadow: 1px 2px 0px 0px rgba(33, 70, 78, 1); -moz-box-shadow: 1px 2px 0px 0px rgba(33, 70, 78, 1); box-shadow: 1px 2px 0px 0px rgba(33, 70, 78, 1); }
+#mc_embed_signup input[type="submit"]:hover { background: #408999; }
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+
+      #contact-form button { background: #336E7B url('images/send-button-bg@2X.png') top left no-repeat; background-size: 60px 58px; }
+      #contact-form button:hover { background: #408999 url('images/send-button-bg@2X.png') top left no-repeat; background-size: 60px 58px; }
+
+
+}
+
+
+
+

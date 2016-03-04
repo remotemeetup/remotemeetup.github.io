@@ -1,0 +1,107 @@
+#preloader { background: #E6EBEC url('../images/preloader-black.svg') center center no-repeat; }
+body { background: #333; color: #CCC; }
+#top-nav { background: #000; }
+#top-nav div.helper nav a { color: #CCC; }
+.overlay-menu { background: rgba(0, 0, 0, 0.95); }
+.separator-line { background: #666; }
+a.call-to-button { color: #000; background: #95A5A6; -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); }
+a.call-to-button:hover { background: #ECF0F1; }
+.image-background a.call-to-button { background: #95A5A6; -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); }
+.image-background a.call-to-button:hover { background: #ECF0F1; }
+.video-background a.call-to-button { background: #95A5A6; -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); }
+.video-background a.call-to-button:hover { background: #ECF0F1; }
+.pattern-background a.call-to-button { background: #95A5A6; -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); }
+.pattern-background a.call-to-button:hover { background: #ECF0F1; }
+a.call-to-button-transparent { color: #FFF; border: 1px solid rgba(255, 255, 255, 0.5); }
+.text-section { color: #FFF; }
+.section_title h2 { color: #FFF; }
+.section_title .title_border { background: #666666; }
+.solid-background { background: #000; }
+#features1 { background: #333; }
+#features1 .feature { border-bottom: 1px solid #666; }
+#features1 .feature-details h2 { color: #FFF; }
+#features1 .feature-details .title-separator { background: #666666; }
+#features2 { background: #333; }
+#features2 .section_intro { color: #CCC; }
+.feature-content p { color: #CCC; }
+.feature-content h3 { color: #FFF; }
+.feature-circle { background: #666; }
+#screenshots1 { background: #333; }
+#screenshots2 { background: #333; }
+#screenshots1 .section_intro { color: #CCC; }
+#screenshot-carousel .carousel-viewport ul li { background: #666; }
+.carousel-direction-nav a { background: #666; -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); }
+.carousel-direction-nav a:hover { background: #999; }
+#screenshot-gallery ul li div { background: #666; -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); }
+#screenshot-gallery ul li h4 { color: #CCC; }
+#testimonials { background: #333; }
+.testimonial-avatar { background: #666; }
+.testimonial-content { background: #666; color: #CCC; -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); }
+.testimonial-content:after { border-color: transparent #666666; }
+.testimonials-control-nav li a { background: #666; border: 0px; }
+.testimonials-control-nav li a.testimonials-active { background: #000; border: 1px solid #666; }
+#services { background: #333; }
+#services .section_intro { color: #CCC; }
+#service-items ul li .service-content { background: #666; -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); }
+#service-items ul li .service-circle { background: #999; }
+#service-items ul li .service-teaser h3 { color: #FFF; }
+#service-items ul li .service-teaser p { color: #CCC; }
+#service-items ul li .service-teaser a.more-link { background: #333; -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); }
+#service-items ul li .service-teaser a.more-link:hover { background: #444; }
+#about { background: #333; }
+.position { background: #000;  }
+.member { background: #666; -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); }
+.member-image { background: #999; }
+.member-info h4 { color: #FFF; }
+.member-info .member-description { color: #CCC; }
+.member-info p.member-more a { background: #333; -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); }
+.member-info p.member-more a:hover { background: #444; }
+#quote { background: #333; }
+.quote-sign { color: #000; background: #666; }
+.author-avatar { background: #666; }
+#pricing { background: #333; }
+.pricing-column { background: #666; -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); }
+.pricing-column ul li.plan-title { color: #FFF; }
+.pricing-column ul li.plan-row { color: #CCC; }
+.pricing-column ul li.signup-button a { background: #333; -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); }
+.pricing-column ul li.signup-button a:hover { background: #444; }
+#contact { background: #333; }
+#contact-form input[type="text"]#form-name { background: #222 url('../images/name-bg.png') 20px 19px no-repeat; color: #CCC; border: 2px solid #514F4F; -webkit-transition: border 1s; -moz-transition: border 1s; transition: border 1s; }
+#contact-form input[type="text"]#form-mail { background: #222 url('../images/mail-bg.png') 18px 24px no-repeat; color: #CCC; border: 2px solid #514F4F; -webkit-transition: border 1s; -moz-transition: border 1s; transition: border 1s; }
+#contact-form input[type="text"]#form-subject { background: #222 url('../images/subject-bg.png') 18px 23px no-repeat; color: #CCC; border: 2px solid #514F4F; -webkit-transition: border 1s; -moz-transition: border 1s; transition: border 1s; }
+#contact-form input[type="text"]#form-name:focus { border: 2px solid #CCC; }
+#contact-form input[type="text"]#form-mail:focus { border: 2px solid #CCC; }
+#contact-form input[type="text"]#form-subject:focus { border: 2px solid #CCC; }
+#contact-form textarea { background: #222 url('../images/message-bg.png') 20px 24px no-repeat; color: #CCC; border: 2px solid #514F4F; }
+#contact-form textarea:focus { border: 2px solid #CCC; }
+#contact-form button { background: #222 url('../images/send-button-bg.png') top left no-repeat; -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); }
+#contact-form button:hover { background: #444 url('../images/send-button-bg.png') top left no-repeat; }
+#social { background: #000; }
+#video-tour { background: #000; }
+#video-tour .section_title .title_border { background: #666; }
+#video-tour .section_intro { color: #CCC; }
+#quote { background: #000; }
+.pricing-column ul li.plan-price { background: #000; }
+#download-section { background: #000; }
+#fun-facts { background: transparent; }
+#facts-wrapper ul li { border-top: 4px solid #000; }
+.fact-desc { background: #000; }
+#subscribe { background: transparent; }
+#mc_embed_signup h2 { background: #000; }
+#mc_embed_signup input[type="submit"] { background: #000; -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); }
+#mc_embed_signup input[type="submit"]:hover { background: #444; }
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+
+      #contact-form input[type="text"]#form-name { background: #222 url('../images/name-bg@2X.png') 20px 19px no-repeat;  }
+      #contact-form input[type="text"]#form-mail { background: #222 url('../images/mail-bg@2X.png') 18px 24px no-repeat; }
+      #contact-form input[type="text"]#form-subject { background: #222 url('../images/subject-bg@2X.png') 18px 23px no-repeat; }
+      #contact-form textarea { background: #222 url('../images/message-bg@2X.png') 20px 24px no-repeat; }
+      #contact-form button { background: #000 url('images/send-button-bg@2X.png') top left no-repeat; background-size: 60px 58px; }
+      #contact-form button:hover { background: #444 url('images/send-button-bg@2X.png') top left no-repeat; background-size: 60px 58px; }
+
+
+}

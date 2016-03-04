@@ -1,0 +1,92 @@
+#preloader { background: #FFF url('../images/preloader-black.svg') center center no-repeat; }
+body { background: #FFF; }
+#top-nav { background: #FFF; border-bottom: 2px solid #CCC; }
+#top-nav div.helper nav a { color: #7F7F7F; }
+.border-top, .border-bottom { height: 1px; background: #EEEEEE; }
+.separator-line { width: 100%; height: 1px; background: #EEEEEE; }
+.overlay-menu { background: rgba(0, 0, 0, 0.95); }
+.solid-background .overlay-menu { background: rgba(249, 191, 59, 0.95); }
+.solid-background .overlay-menu ul li a { color: #000; }
+.solid-background .overlay-menu ul li a:hover { color: #333; }
+.solid-background .overlay-menu .overlay-menu-close { color: #000; }
+.solid-background #logo-text { color: #000; }
+.solid-background #logo-text a { color: #000; }
+.solid-background div.menu-button { color: #000; }
+.solid-background div.menu-button span.menu-line { background: #000; }
+a.call-to-button { background: #000; -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); }
+a.call-to-button:hover { background: #000; }
+.image-background a.call-to-button { background: #000; -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); }
+.image-background a.call-to-button:hover { background: #000; }
+.video-background a.call-to-button { background: #000; -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); }
+.video-background a.call-to-button:hover { background: #000; }
+.pattern-background a.call-to-button { background: #000; -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); }
+.pattern-background a.call-to-button:hover { background: #000; }
+.solid-background a.call-to-button-transparent { color: #7F7F7F; border: 1px solid rgba(0, 0, 0, 0.2); }
+.section_title .title_border { background: #999; }
+.solid-background { background: #FFF; }
+.solid-background #intro h1 { color: #000; }
+#features1 { background: #FFF; }
+#features1 .feature-details .title-separator { background: #999; }
+#features2 { background: #FFF; }
+.feature-circle { background: #000; }
+#screenshots1 { background: #FFF; }
+#screenshots2 { background: #FFF; }
+#screenshot-carousel .carousel-viewport ul li { background: #F8F8F8; }
+#screenshot-gallery ul li div { background: #F8F8F8; -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); }
+.carousel-direction-nav a { background: transparent; color: #CCC; border: 1px solid #DDD; -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); }
+.carousel-direction-nav a:hover { background: #F8F8F8; }
+#testimonials { background: #FFF; }
+.testimonial-avatar { background: #F8F8F8; }
+.testimonial-content { background: #F8F8F8; }
+.testimonial-content:after { border-color: transparent #F8F8F8; }
+.testimonials-control-nav li a.testimonials-active { background: #F8F8F8; border: 1px solid #DDD; }
+#services { background: #FFF; }
+#service-items ul li .service-content { background: #F8F8F8; }
+#service-items ul li .service-teaser a.more-link { background: transparent; border: 1px solid #CCC; color: #000; -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); }
+#service-items ul li .service-teaser a.more-link:hover { background: #EEE; }
+.position { background: #000; }
+#about { background: #FFF; }
+.member { background: #F8F8F8; }
+.member-info p.member-more a { background: transparent; border: 1px solid #CCC; color: #000; -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); }
+.member-info p.member-more a:hover { background: #EEE; }
+#quote { background: #FFF; }
+.quote-sign { color: #999; background: #F8F8F8; }
+.quote-content { color: #000; }
+.quote-author { color: #7F7F7F; }
+.author-avatar { background: #F8F8F8; }
+#pricing { background: #FFF; }
+.pricing-column { background: #F8F8F8; }
+.pricing-column ul li.signup-button a { background: transparent; border: 1px solid #CCC; color: #000; -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); }
+.pricing-column ul li.signup-button a:hover { background: #EEE; }
+#contact { background: #FFF; }
+#contact-form input[type="text"], #contact-form textarea { border: 2px solid #CCCCCC; }
+#contact-form button { background: #000 url('../images/send-button-bg.png') top left no-repeat; -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); }
+#contact-form button:hover { background: #333 url('../images/send-button-bg.png') top left no-repeat; }
+#contact-form input[type="text"]:focus, #contact-form textarea:focus { border: 2px solid #000; }
+#social { background: #FFF; }
+#copyright { color: #7F7F7F; }
+#video-tour { background: #FFF; }
+#video-tour .section_title h2 { color: #000; }
+#video-tour .section_title .title_border { background: #999; }
+#video-tour .section_intro { color: #7F7F7F; }
+.pricing-column ul li.plan-price { background: #000; }
+#download-section { background: #FFF; }
+#download-text { color: #000; }
+#fun-facts { background: transparent; }
+#facts-wrapper ul li { border-top: 4px solid #000; }
+.fact-desc { background: #000; }
+#subscribe { background: transparent; }
+#mc_embed_signup h2 { background: #000; }
+#mc_embed_signup input[type="submit"] { background: #000; -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); }
+#mc_embed_signup input[type="submit"]:hover { background: #333; }
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+
+      #contact-form button { background: #000 url('images/send-button-bg@2X.png') top left no-repeat; background-size: 60px 58px; }
+      #contact-form button:hover { background: #333 url('images/send-button-bg@2X.png') top left no-repeat; background-size: 60px 58px; }
+
+
+}

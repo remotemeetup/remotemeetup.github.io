@@ -1,0 +1,53 @@
+#preloader { background: #E6EBEC url('../images/preloader-lynch.svg') center center no-repeat; }
+#top-nav { background: #6C7A89; }
+.overlay-menu { background: rgba(108, 122, 137, 0.95); }
+a.call-to-button { color: #000; background: #D2D7D3; -webkit-box-shadow: 1px 2px 0px 0px rgba(163, 173, 165, 1); -moz-box-shadow: 1px 2px 0px 0px rgba(163, 173, 165, 1); box-shadow: 1px 2px 0px 0px rgba(163, 173, 165, 1); }
+a.call-to-button:hover { background: #F4D351; }
+.image-background a.call-to-button { background: #D2D7D3; -webkit-box-shadow: 1px 2px 0px 0px rgba(163, 173, 165, 1); -moz-box-shadow: 1px 2px 0px 0px rgba(163, 173, 165, 1); box-shadow: 1px 2px 0px 0px rgba(163, 173, 165, 1); }
+.image-background a.call-to-button:hover { background: #F4D351; }
+.video-background a.call-to-button { background: #D2D7D3; -webkit-box-shadow: 1px 2px 0px 0px rgba(163, 173, 165, 1); -moz-box-shadow: 1px 2px 0px 0px rgba(163, 173, 165, 1); box-shadow: 1px 2px 0px 0px rgba(163, 173, 165, 1); }
+.video-background a.call-to-button:hover { background: #F4D351; }
+.pattern-background a.call-to-button { background: #D2D7D3; -webkit-box-shadow: 1px 2px 0px 0px rgba(163, 173, 165, 1); -moz-box-shadow: 1px 2px 0px 0px rgba(163, 173, 165, 1); box-shadow: 1px 2px 0px 0px rgba(163, 173, 165, 1); }
+.pattern-background a.call-to-button:hover { background: #F4D351; }
+a.call-to-button-transparent { color: #FFF; border: 1px solid rgba(255, 255, 255, 0.5); }
+.section_title .title_border { background: #6C7A89; }
+.solid-background { background: #6C7A89; }
+#features1 .feature-details .title-separator { background: #6C7A89; }
+.feature-circle { background: #6C7A89; }
+.carousel-direction-nav a { background: #6C7A89; -webkit-box-shadow: 1px 2px 0px 0px rgba(73, 83, 92, 1); -moz-box-shadow: 1px 2px 0px 0px rgba(73, 83, 92, 1); box-shadow: 1px 2px 0px 0px rgba(73, 83, 92, 1); }
+.carousel-direction-nav a:hover { background: #838E9C; }
+.testimonials-control-nav li a.testimonials-active { background: #6C7A89; border: 1px solid #49535C; }
+#service-items ul li .service-teaser a.more-link { background: #6C7A89; -webkit-box-shadow: 1px 2px 0px 0px rgba(73, 83, 92, 1); -moz-box-shadow: 1px 2px 0px 0px rgba(73, 83, 92, 1); box-shadow: 1px 2px 0px 0px rgba(73, 83, 92, 1); }
+#service-items ul li .service-teaser a.more-link:hover { background: #838E9C; }
+.position { background: #6C7A89; }
+.member-info p.member-more a { background: #6C7A89; -webkit-box-shadow: 1px 2px 0px 0px rgba(73, 83, 92, 1); -moz-box-shadow: 1px 2px 0px 0px rgba(73, 83, 92, 1); box-shadow: 1px 2px 0px 0px rgba(73, 83, 92, 1); }
+.member-info p.member-more a:hover { background: #838E9C; }
+.quote-sign { color: #6C7A89; }
+.pricing-column ul li.signup-button a { background: #6C7A89; -webkit-box-shadow: 1px 2px 0px 0px rgba(73, 83, 92, 1); -moz-box-shadow: 1px 2px 0px 0px rgba(73, 83, 92, 1); box-shadow: 1px 2px 0px 0px rgba(73, 83, 92, 1); }
+.pricing-column ul li.signup-button a:hover { background: #838E9C; }
+#contact-form button { background: #6C7A89 url('../images/send-button-bg.png') top left no-repeat; -webkit-box-shadow: 1px 2px 0px 0px rgba(73, 83, 92, 1); -moz-box-shadow: 1px 2px 0px 0px rgba(73, 83, 92, 1); box-shadow: 1px 2px 0px 0px rgba(73, 83, 92, 1); }
+#contact-form button:hover { background: #838E9C url('../images/send-button-bg.png') top left no-repeat; }
+#contact-form input[type="text"]:focus, #contact-form textarea:focus { border: 2px solid #6C7A89; }
+#social { background: #6C7A89; }
+#video-tour { background: #6C7A89; }
+#quote { background: #6C7A89; }
+.pricing-column ul li.plan-price { background: #6C7A89; }
+#download-section { background: #6C7A89; }
+#fun-facts { background: transparent; }
+#facts-wrapper ul li { border-top: 4px solid #6C7A89; }
+.fact-desc { background: #6C7A89; }
+#subscribe { background: transparent; }
+#mc_embed_signup h2 { background: #6C7A89; }
+#mc_embed_signup input[type="submit"] { background: #6C7A89; -webkit-box-shadow: 1px 2px 0px 0px rgba(73, 83, 92, 1); -moz-box-shadow: 1px 2px 0px 0px rgba(73, 83, 92, 1); box-shadow: 1px 2px 0px 0px rgba(73, 83, 92, 1); }
+#mc_embed_signup input[type="submit"]:hover { background: #838E9C; }
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+
+      #contact-form button { background: #6C7A89 url('images/send-button-bg@2X.png') top left no-repeat; background-size: 60px 58px; }
+      #contact-form button:hover { background: #838E9C url('images/send-button-bg@2X.png') top left no-repeat; background-size: 60px 58px; }
+
+
+}

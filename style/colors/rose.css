@@ -1,0 +1,53 @@
+#preloader { background: #E6EBEC url('../images/preloader-rose.svg') center center no-repeat; }
+#top-nav { background: #D24D57; }
+.overlay-menu { background: rgba(51, 110, 123, 0.95); }
+a.call-to-button { background: #3498DB; -webkit-box-shadow: 1px 2px 0px 0px rgba(29,109,163,1); -moz-box-shadow: 1px 2px 0px 0px rgba(29,109,163,1); box-shadow: 1px 2px 0px 0px rgba(29,109,163,1); }
+a.call-to-button:hover { background: #5AACE2; }
+.image-background a.call-to-button { background: #3498DB; -webkit-box-shadow: 1px 2px 0px 0px rgba(29,109,163,1); -moz-box-shadow: 1px 2px 0px 0px rgba(29,109,163,1); box-shadow: 1px 2px 0px 0px rgba(29,109,163,1); }
+.image-background a.call-to-button:hover { background: #5AACE2; }
+.video-background a.call-to-button { background: #3498DB; -webkit-box-shadow: 1px 2px 0px 0px rgba(29,109,163,1); -moz-box-shadow: 1px 2px 0px 0px rgba(29,109,163,1); box-shadow: 1px 2px 0px 0px rgba(29,109,163,1); }
+.video-background a.call-to-button:hover { background: #5AACE2; }
+.pattern-background a.call-to-button { background: #3498DB; -webkit-box-shadow: 1px 2px 0px 0px rgba(29,109,163,1); -moz-box-shadow: 1px 2px 0px 0px rgba(29,109,163,1); box-shadow: 1px 2px 0px 0px rgba(29,109,163,1); }
+.pattern-background a.call-to-button:hover { background: #5AACE2; }
+a.call-to-button-transparent { color: #FFF; border: 1px solid rgba(255, 255, 255, 0.5); }
+.section_title .title_border { background: #D24D57; }
+.solid-background { background: #D24D57; }
+#features1 .feature-details .title-separator { background: #D24D57; }
+.feature-circle { background: #D24D57; }
+.carousel-direction-nav a { background: #D24D57; -webkit-box-shadow: 1px 2px 0px 0px rgba(153, 38, 47, 1); -moz-box-shadow: 1px 2px 0px 0px rgba(153, 38, 47, 1); box-shadow: 1px 2px 0px 0px rgba(153, 38, 47, 1); }
+.carousel-direction-nav a:hover { background: #DC747B; }
+.testimonials-control-nav li a.testimonials-active { background: #D24D57; border: 1px solid #99262F; }
+#service-items ul li .service-teaser a.more-link { background: #D24D57; -webkit-box-shadow: 1px 2px 0px 0px rgba(153, 38, 47, 1); -moz-box-shadow: 1px 2px 0px 0px rgba(153, 38, 47, 1); box-shadow: 1px 2px 0px 0px rgba(153, 38, 47, 1); }
+#service-items ul li .service-teaser a.more-link:hover { background: #DC747B; }
+.position { background: #D24D57; }
+.member-info p.member-more a { background: #D24D57; -webkit-box-shadow: 1px 2px 0px 0px rgba(153, 38, 47, 1); -moz-box-shadow: 1px 2px 0px 0px rgba(153, 38, 47, 1); box-shadow: 1px 2px 0px 0px rgba(153, 38, 47, 1); }
+.member-info p.member-more a:hover { background: #DC747B; }
+.quote-sign { color: #D24D57; }
+.pricing-column ul li.signup-button a { background: #D24D57; -webkit-box-shadow: 1px 2px 0px 0px rgba(153, 38, 47, 1); -moz-box-shadow: 1px 2px 0px 0px rgba(153, 38, 47, 1); box-shadow: 1px 2px 0px 0px rgba(153, 38, 47, 1); }
+.pricing-column ul li.signup-button a:hover { background: #DC747B; }
+#contact-form button { background: #D24D57 url('../images/send-button-bg.png') top left no-repeat; -webkit-box-shadow: 1px 2px 0px 0px rgba(153, 38, 47, 1); -moz-box-shadow: 1px 2px 0px 0px rgba(153, 38, 47, 1); box-shadow: 1px 2px 0px 0px rgba(153, 38, 47, 1); }
+#contact-form button:hover { background: #DC747B url('../images/send-button-bg.png') top left no-repeat; }
+#contact-form input[type="text"]:focus, #contact-form textarea:focus { border: 2px solid #D24D57; }
+#social { background: #D24D57; }
+#video-tour { background: #D24D57; }
+#quote { background: #D24D57; }
+.pricing-column ul li.plan-price { background: #D24D57; }
+#download-section { background: #D24D57; }
+#fun-facts { background: transparent; }
+#facts-wrapper ul li { border-top: 4px solid #D24D57; }
+.fact-desc { background: #D24D57; }
+#subscribe { background: transparent; }
+#mc_embed_signup h2 { background: #D24D57; }
+#mc_embed_signup input[type="submit"] { background: #D24D57; -webkit-box-shadow: 1px 2px 0px 0px rgba(153, 38, 47, 1); -moz-box-shadow: 1px 2px 0px 0px rgba(153, 38, 47, 1); box-shadow: 1px 2px 0px 0px rgba(153, 38, 47, 1); }
+#mc_embed_signup input[type="submit"]:hover { background: #DC747B; }
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+
+      #contact-form button { background: #D24D57 url('images/send-button-bg@2X.png') top left no-repeat; background-size: 60px 58px; }
+      #contact-form button:hover { background: #DC747B url('images/send-button-bg@2X.png') top left no-repeat; background-size: 60px 58px; }
+
+
+}

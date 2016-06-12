@@ -425,6 +425,11 @@ a.call-to-button-transparent { display: block;  height: 53px; line-height: 53px;
 #right-features .feature-content { float: right; }
 #right-features .feature-circle { float: left; }
 
+
+#partners-sponsors{
+  padding: 100px 0px; overflow: hidden; position: relative; z-index: 100; background: #E6EBEC;
+}
+
 /*=====================================================================================*/
 /*       6. SCREENSHOTS                                                                */
 /*=====================================================================================*/
@@ -1170,7 +1175,7 @@ html[xmlns] .carousel-slider {display: block;}
      #screenshots2 .section_intro { margin-bottom: 40px; }
      #screenshot-gallery { width: 380px; }
      #screenshot-gallery ul { width: 380px;  }
-     #screenshot-gallery ul li { width: 300px; float: none; display: block; margin: 0 auto; margin-bottom: 30px; }     
+     #screenshot-gallery ul li { width: 300px; float: none; display: block; margin: 0 auto; margin-bottom: 30px; }
 
      /*- Contact -*/
      #contact-form { width: 380px; }

@@ -33,13 +33,11 @@ var RemoteMeetup ={
 
   getMeetupContent: function(meetupName) {
     var meetupContentUrl = "https://api.github.com/repos/remotemeetup/list/contents/"+ meetupName + ".md?ref=master"
-    var content = {};
 
     $.get(meetupContentUrl, function(response){
-      content.text = Base64.decode(response.content)
-      $('#meetupContent').html(content.text)
+       var content = Base64.decode(response.content)
+       var htmlContent = marked(content);
+      $('#meetupContent').html(htmlContent)
     });
-
-    return content;
   }
 }

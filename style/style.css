@@ -1402,3 +1402,11 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 
 }
+
+#meetupContent ul {
+  list-style: circle;
+}
+
+#meetupContent h2, p {
+    margin: 10px;
+}

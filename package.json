@@ -1,19 +1,43 @@
 {
-  "name": "remotemeetup.github.io",
+  "name": "gatsby-starter-grommet",
+  "description": "Gatsby starter with the Grommet design system",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "Aaron Lampros <alampros@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/alampros/gatsby-starter-grommet/issues"
   },
+  "scripts": {
+    "dev": "gatsby develop",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "git clean -xfd .cache public/",
+    "serve": "yarn run clean && yarn run build && gatsby serve",
+    "deploy": "yarn run build -- --prefix-paths && gh-pages -d public"
+  },
+  "dependencies": {
+    "autoprefixer": "^7.1.2",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "gatsby": "^1.1.0",
+    "gatsby-link": "^1.3.2",
+    "grommet": "^1.5.0",
+    "node-sass": "^4.5.2",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "sass-loader": "^4.1.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.0.0"
+  },
+  "homepage": "https://github.com/alampros/gatsby-starter-grommet#readme",
+  "keywords": [
+    "gatsby",
+    "starter",
+    "gatsby-starter"
+  ],
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/remotemeetup/remotemeetup.github.io.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/remotemeetup/remotemeetup.github.io/issues"
-  },
-  "homepage": "https://github.com/remotemeetup/remotemeetup.github.io#readme"
+    "url": "git+https://github.com/alampros/gatsby-starter-grommet.git"
+  }
 }

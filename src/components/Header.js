@@ -9,7 +9,7 @@ import SearchIcon from "grommet/components/icons/base/Search";
 
 export default function AppHeader(props) {
   return (
-    <Header justify="center" colorIndex="neutral-4">
+    <Header justify="center" colorIndex="brand">
       <Box
         size={{ width: { max: "xxlarge" } }}
         direction="row"
@@ -23,7 +23,7 @@ export default function AppHeader(props) {
         <Box flex="grow" />
         <Menu label="Label" inline={true} direction="row">
           <Anchor href="#">Home</Anchor>
-          <Anchor href="#">Who we are</Anchor>
+          <Anchor href="#who">Who we are</Anchor>
           <Anchor href="#">Talks</Anchor>
           <Anchor href="#">Join us</Anchor>
         </Menu>

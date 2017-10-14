@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Anchor from "grommet/components/Anchor";
 import Box from "grommet/components/Box";
+import Button from "grommet/components/Button";
+import App from "grommet/components/App";
 import Menu from "grommet/components/Menu";
 import Card from "grommet/components/Card";
 import Footer from "grommet/components/Footer";
@@ -16,28 +18,23 @@ export default class Index extends Component {
   render() {
     const blogPostLinkData = [
       {
-        href:
-          "https://medium.com/remote-meetup/why-we-need-remote-meetups-45f835658876#.90ucn2t6q",
+        href: "https://medium.com/remote-meetup/why-we-need-remote-meetups-45f835658876#.90ucn2t6q",
         text: "Why we need Remote Meetup"
       },
       {
-        href:
-          "https://medium.com/remote-meetup/remotemeetup-com-27889b2510e7#.n6jsuzh6k",
+        href: "https://medium.com/remote-meetup/remotemeetup-com-27889b2510e7#.n6jsuzh6k",
         text: "Launching RemoteMeetup.com"
       },
       {
-        href:
-          "https://medium.com/remote-meetup/go-remote-meetup-thanks-gobridge-22aa4f22d7a2#.mjn3bwq1t",
+        href: "https://medium.com/remote-meetup/go-remote-meetup-thanks-gobridge-22aa4f22d7a2#.mjn3bwq1t",
         text: "Go Remote Meetup - Thanks, GoBridge!"
       },
       {
-        href:
-          "https://medium.com/remote-meetup/scaling-remotemeetup-thanks-hired-com-b46ded1a2306#.m8q6nddhr",
+        href: "https://medium.com/remote-meetup/scaling-remotemeetup-thanks-hired-com-b46ded1a2306#.m8q6nddhr",
         text: "Scaling RemoteMeetup - Thanks, Hired.com!"
       },
       {
-        href:
-          "https://medium.com/remote-meetup/dailydrip-and-elm-remote-meetups-ab3c5710cd4f#.ql3diatin",
+        href: "https://medium.com/remote-meetup/dailydrip-and-elm-remote-meetups-ab3c5710cd4f#.ql3diatin",
         text: "DailyDrip and Elm Remote Meetups!"
       }
     ];
@@ -55,78 +52,68 @@ export default class Index extends Component {
     return (
       <Box>
         <Header />
-        <Box pad="large">
-          <Headline>
-            Remote meetups, screencasts, interviews, and lightning talks.
-          </Headline>
-          <Anchor href="#" primary={true} label="Learn More" />
-        </Box>
-
-        <Box align="center">
-          <Box
-            pad="large"
-            align="center"
-            textAlign="center"
-            size={{ width: { max: "xxlarge" } }}
-          >
-            <Heading tag="h1" strong={true} margin="none">
-              Who we are
-            </Heading>
-            <Paragraph size="large" width="large">
-              We are a remote community of developers aiming to improve
-              technical skills everyday.
-            </Paragraph>
-            <Paragraph size="large" width="large">
-              Technology is our passion. We believe that the more you share, the
-              more you learn. We can break geographic limits and use tools to
-              share our passion with the whole world.
-            </Paragraph>
-
-            <Menu size="medium" inline={true} direction="column">
-              {blogPostLinks}
-            </Menu>
+        <App>
+          <Box pad="large" textAlign="center" justify="center">
+            <Headline>
+              Remote meetups, screencasts, interviews, and lightning talks.
+            </Headline>
+            <Button
+              alignSelf="center"
+              pad="medium"
+              box={true}
+              href="#"
+              primary={true}
+              label={<Heading tag="h2" margin="none">Learn More</Heading>}
+            />
           </Box>
-        </Box>
+
+          <Box align="center">
+            <Box
+              pad="large"
+              align="center"
+              textAlign="center"
+              size={{ width: { max: "xxlarge" } }}
+            >
+              <Heading id="who" tag="h1" strong={true} margin="none">
+                Who we are
+              </Heading>
+              <Paragraph size="large" width="large">
+                We are a remote community of developers aiming to improve
+                technical skills everyday.
+              </Paragraph>
+              <Paragraph size="large" width="large">
+                Technology is our passion. We believe that the more you share, the
+                more you learn. We can break geographic limits and use tools to
+                share our passion with the whole world.
+              </Paragraph>
+
+              <Menu size="medium" inline={true} direction="column">
+                {blogPostLinks}
+              </Menu>
+            </Box>
+          </Box>
+        </App>
         <Footer full="horizontal">
           <Box
-            colorIndex="neutral-1"
-            pad="large"
-            align="center"
+            className="footer-cards-container"
+            pad={{ vertical: "medium" }}
+            size={{ width: "xxlarge" }}
             full="horizontal"
+            direction="column"
+            flex="grow"
+            textAlign="center"
+            colorIndex="neutral-2"
+            alignSelf="center"
           >
-            <Box
-              className="footer-cards-container"
-              pad={{ vertical: "medium" }}
-              size={{ width: "xxlarge" }}
-              direction="row"
-              flex="grow"
-            >
-              <Card
-                pad={{ horizontal: "large" }}
-                contentPad="medium"
-                heading="Lorem ipsum dolor sit amet"
-                label="Label"
-                basis="1/2"
-                link={
-                  <Anchor href="http://www.grommet.io/docs/" primary={true}>
-                    Learn More
-                  </Anchor>
-                }
-                separator="right"
-              />
-              <Card
-                pad={{ horizontal: "large" }}
-                contentPad="medium"
-                heading="Lorem ipsum dolor sit amet"
-                label="Label"
-                basis="1/2"
-                link={
-                  <Anchor href="http://www.grommet.io/docs/" primary={true}>
-                    Learn More
-                  </Anchor>
-                }
-              />
-            </Box>
+
+            <Headline>
+              Are you ready?
+            </Headline>
+            <Anchor
+              icon={<div />}
+              label="Join us"
+              href="http://remotemeetup.herokuapp.com/"
+            />
           </Box>
         </Footer>
       </Box>

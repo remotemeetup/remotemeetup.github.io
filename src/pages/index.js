@@ -91,6 +91,20 @@ export default class Index extends Component {
                 {blogPostLinks}
               </Menu>
             </Box>
+
+            <Box pad="large" align="center" textAlign="center">
+              <Heading tag="h2" strong={true} margin="none">
+                WHERE?
+              </Heading>
+            </Box>
+            
+            <Box pad="large" align="center" textAlign="center">
+              <Paragraph size="small">
+                We break geographic barriers!
+                <iframe src="https://www.google.com/maps/d/embed?mid=1LkWFsnVxOF_c4hErOhfQz3hYQTQ" width="640" height="480">
+                </iframe>
+              </Paragraph>
+            </Box>
           </Box>
         </App>
         <Footer full="horizontal">
